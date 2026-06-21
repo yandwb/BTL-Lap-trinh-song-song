@@ -189,7 +189,7 @@ float dtw_cuda(const vector<float>& A, const vector<float>& B,
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// PHẦN 3: ĐÁNH GIÁ HIỆU NĂNG (BENCHMARK)
+// PHẦN 3: ĐÁNH GIÁ HIỆU NĂNG
 // ═══════════════════════════════════════════════════════════════════════════════
 
 TimingResult benchmark_timing(const vector<float>& A, const vector<float>& B, int runs)
@@ -279,7 +279,7 @@ void run_speedup_benchmark(const string& csv_path) {
 //     return 0;
 // }
 // ═══════════════════════════════════════════════════════════════════════════════
-// MAIN FUNCTION (Chiến dịch lấy Log Cân Bằng Tải)
+// MAIN FUNCTION 
 // ═══════════════════════════════════════════════════════════════════════════════
 
 int main(int argc, char* argv[]) {
